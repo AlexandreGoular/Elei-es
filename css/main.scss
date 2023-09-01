@@ -1,0 +1,109 @@
+$fonteLetra: sans-serif;
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 50vh;
+    background-color: #211d23;
+    
+}
+
+.container {
+
+    width: 600px;
+    height: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    background-color: #211d23;
+
+    .sla {
+
+        float: left;
+        width: 300px;
+        height: 300px;
+    }
+
+    
+
+    form {
+
+        width: 300px;
+        height: 300px;
+
+        h1 {
+
+            text-align: center;
+            font-size: $fonteLetra;
+            color: white;
+        }
+
+        
+        label {
+
+            display: block;
+            text-align: center;
+            font-size: $fonteLetra;
+            color: white;
+        }
+
+        input {
+
+            font-size: $fonteLetra;
+            display: block;
+            margin: auto;
+            text-align: center;
+            margin-top: 3px;
+            background-color: #ffffff;
+            border: 1px solid black;
+            
+        }
+
+        #btn {
+           
+            display: block;
+            width: 59%;
+            margin: auto;
+            margin-top: 10px;
+            background-color: #ffffff;
+            border: 1px solid black;
+        }
+
+        .resultado {
+
+            margin-top: 6px;
+            width: 180px;
+            height: 40px;
+            text-align: center;
+            background-color: #ffffff;
+            margin-left: 20%;
+            border: 1px solid black;
+            display: block;
+
+            
+
+            span {
+
+                text-align: center;
+                color: black;
+                
+            }
+        }
+
+    }
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+input:focus {
+    outline: none;
+}
+
